@@ -7,6 +7,8 @@ class User {
   }
 
   compareAge(otherUser) {
+    // qui dichiaro il metodo compareAge
+    // che confronta l eta di this con quella del parametro (otherUser)
     if (this.age > otherUser.age) {
       return `${this.firstName} è più vecchio di ${otherUser.firstName}`;
     } else if (this.age < otherUser.age) {
@@ -17,7 +19,7 @@ class User {
   }
 }
 
-// Creazione di oggetti utente
+// Creazione di oggetti utente (istanze nella classe user)
 
 const user1 = new User("Mario", "Rossi", 20, "Roma");
 const user2 = new User("Luigi", "Bianchi", 29, "Napoli");
